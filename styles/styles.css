@@ -85,8 +85,91 @@
 .about-title{
     text-align: center;
     padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 .about-info > p {
     margin: 15px 0;
+}
+
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 0px 0px 64px 8px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.icon{
+    width: 70px;
+}
+
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.box-title{
+    padding: 10px;
+}
+
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.services-container{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+
+.link-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    padding: 100px 0px;
+    background-image: linear-gradient(45deg, #242323, #0f0a0a);
+}
+
+.link-container a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.link-container div p, address{
+    line-height: 25px;
+}
+
+.geek{
+    font-size: 30px;
+}
+
+.link-container div h5{
+    font-size: 20px;
+}
+
+.link-container div h5, h4{
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 89%;
+    margin: 30px auto;
+}
+
+.copyright p{
+    text-align: center;
+    color: white;
 }
